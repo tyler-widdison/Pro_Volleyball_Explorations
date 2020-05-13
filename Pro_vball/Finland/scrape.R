@@ -1,4 +1,5 @@
-#need to check ids for 2019-2020 season and other season
+#2019-2020 https://www.mestaruusliiga.fi/tilastot/miehet-runkosarja.html
+#check for other years https://www.mestaruusliiga.fi/tilastot/miehet-runkosarja.html
 library(rvest)
 ids <- 0:2014
 urls <- paste0("http://lml-web.dataproject.com/MatchStatistics.aspx?mID=",ids, "&ID=55&CID=82&PID=56&type=LegList")

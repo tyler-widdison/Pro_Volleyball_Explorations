@@ -6,7 +6,7 @@ player = []
 match_date = []
 match_teams = []
 
-for page in range(0,4000):
+for page in range(0,4600):
     try:
         url = 'http://www.volleyservice.ru/index.php?option=com_volleyplayers&task=statistic&act=stat_game&game_id={}'.format(page)
         res = requests.get(url)
